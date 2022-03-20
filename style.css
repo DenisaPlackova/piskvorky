@@ -7,7 +7,7 @@ body {
 .flex-container {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 44%;
 }
 .heading-text {
   display: flex;
@@ -43,17 +43,26 @@ a {
 .buttons {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+
   color: #ffffff;
   cursor: pointer;
+  border-width: 0;
 }
-.Pravidla {
+.rules {
   background-color: #1fcca4;
+  height: 50px;
+  border-width: 0;
+  border-bottom: solid 1px black;
 }
-
+.rules:hover {
+  background-color: #1cbb96;
+}
 .play {
   background-color: #0197f6;
-}
-
-button {
   height: 50px;
+  border-width: 0;
+}
+.play:hover {
+  background-color: #0090e9;
 }
