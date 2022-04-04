@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 
-.body {
+.main-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,6 +17,15 @@ body {
   padding: 10px;
   padding-top: 40px;
   padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+
+@media (min-width: 900px) {
+  .instruction-container {
+    width: 700px;
+  }
 }
 
 .flex-container {
@@ -24,6 +33,7 @@ body {
   flex-direction: column;
   max-width: 360px;
 }
+
 .text {
   background-color: #283e50;
 }
@@ -70,6 +80,9 @@ a {
   cursor: pointer;
 }
 .play {
+  width: 100%;
+  font-size: 17px;
+  color: #ffffff;
   background-color: #0197f6;
   height: 50px;
   border-width: 0;
@@ -105,4 +118,18 @@ figcaption {
   text-align: center;
   margin-top: 5px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 900px) {
+  figure {
+    max-width: 45%;
+    margin: 17px;
+  }
+}
+
+@media (min-width: 900px) {
+  .instructions {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
