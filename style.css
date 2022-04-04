@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 
-body {
+.body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,14 +13,18 @@ body {
   color: #ffffff;
 }
 
+.instruction-container {
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
   max-width: 360px;
 }
-.heading-text {
-  display: flex;
-  flex-direction: column;
+.text {
   background-color: #283e50;
 }
 
@@ -55,8 +59,11 @@ a {
 .rules {
   background-color: #1fcca4;
   height: 50px;
+  width: 100%;
   border-width: 0;
   border-bottom: solid 1px black;
+  font-size: 17px;
+  color: #fff;
 }
 .rules:hover {
   background-color: #1cbb96;
@@ -74,4 +81,28 @@ a {
 
 .imgInstrukce {
   max-width: 100%;
+}
+
+li {
+  padding: 8px;
+}
+
+ol {
+  margin: 20px;
+}
+
+.kolecko,
+.krizek {
+  filter: invert(100%);
+  width: 1em;
+  height: 1em;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
