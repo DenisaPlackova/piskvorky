@@ -133,3 +133,89 @@ figcaption {
     flex-wrap: wrap;
   }
 }
+
+.button {
+  display: flex;
+}
+
+.pole {
+  flex-grow: 1;
+  aspect-ratio: 1/1;
+  padding: 0px;
+  margin: 0px;
+  border: 1px, solid, black;
+}
+
+.hraci-pole {
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 1/1;
+}
+
+.main-container-hra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  max-width: 80vmin;
+  margin-bottom: 10px;
+  margin-top: 0%;
+}
+
+.tah,
+.rozcesti {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.hraci-hlavicka,
+.hraje,
+.hraje-kolecko {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.play-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+  background-color: #1fcca4;
+  cursor: pointer;
+  border-width: 0;
+  border-radius: 15%;
+}
+
+.restart-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+  background-color: #0197f6;
+  cursor: pointer;
+  border-width: 0;
+  border-radius: 15%;
+}
+
+.restart-button:hover {
+  background-color: #0090e9;
+  cursor: pointer;
+}
+
+.play-button:hover {
+  background-color: #1cbb96;
+  cursor: pointer;
+}
+.hraje-kolecko {
+  filter: invert();
+}
+.pole:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+}
