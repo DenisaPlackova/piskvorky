@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-
+    <script src="index.js" type="module"></script>
     <title>Document</title>
   </head>
   <div class="main-container">
@@ -17,7 +17,7 @@
         <div class="hraci-hlavicka">
           <div class="tah">
             <div class="hraje">HRAJE:</div>
-            <img class="hraje-kolecko" src="circle.svg" alt="kolecko" />
+            <img id="tah" class="hraje-kolecko" src="circle.svg" alt="kolecko" />
           </div>
           <div class="rozcesti">
             <a href="index.html"
@@ -26,8 +26,8 @@
               </button>
             </a>
 
-            <a href="hra.html"
-              ><button class="restart-button">
+            <a href="hra.html">
+              <button class="restart-button">
                 <img src="restart.svg" alt="restart" />
               </button>
             </a>
