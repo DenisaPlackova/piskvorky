@@ -1,6 +1,6 @@
 let player = 'circle';
 
-const square = document.querySelector('#tah');
+const square = document.querySelector('.tah');
 
 const move = (event) => {
   if (player === 'circle') {
@@ -11,7 +11,7 @@ const move = (event) => {
   } else {
     event.target.disabled = true;
     player = 'circle';
-    ev.target.classList.add('board__field--cross');
+    event.target.classList.add('board__field--cross');
     square.src = 'circle.svg';
   }
   console.log(event);

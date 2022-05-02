@@ -230,13 +230,15 @@ figcaption {
 }
 
 .board__field--circle {
-  background-size: 70%;
+  background-size: 100%;
   background-image: url(circle.svg);
   transition: background-size 150ms;
+  background-repeat: no-repeat;
 }
 
 .board__field--cross {
-  background-size: 70%;
+  background-size: 100%;
   background-image: url(cross.svg);
   transition: background-size 150ms;
+  background-repeat: no-repeat;
 }
